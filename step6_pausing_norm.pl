@@ -2,11 +2,6 @@
  use strict;
  use warnings;
 
-=head1
-Use of new normalization for calculating codon occupancy.
-1, avergage RPF density of a given gene = total in-frame reads / total effective codon (with PRF reads)
-2,for each gene, rpf density of a given codon is normalized with the the avg RPF density of the gene
-=cut
 
 my $ATG_distance = 15;    # number of codons excluded from start codon
 my $stop_distance = 10;   # number of codons excluded from stop codon
