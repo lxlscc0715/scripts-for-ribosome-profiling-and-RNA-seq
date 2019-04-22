@@ -1,6 +1,6 @@
 # scripts-for-ribosome-profiling-and-RNA-seq
 
-These scripts are used for analysis of ribosome profiling data.
+These scripts are created by Yunkun and used for analysis of ribosome profiling data.
 Before start
 require Perl(5.22) and R(3.4.0) or above
 1, download and install bowtie2, tophat2, SAMTOOLS, BEDTools. make sure the installed softwares are in your PATH.
