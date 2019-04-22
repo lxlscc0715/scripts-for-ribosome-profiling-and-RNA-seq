@@ -51,4 +51,4 @@ sub process_wig  {
 	close hand1; close out1;
 }
 process_wig("RPF_sample_name1", xxxxx);    #xxxxx is total reads number
-process_wig("RPF_sample_name1", xxxxx);    #xxxxx is total reads number
+process_wig("RPF_sample_name2", xxxxx);    #xxxxx is total reads number
