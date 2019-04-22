@@ -1,4 +1,4 @@
-These scripts are used for analysis of ribosome profiling data.
+These scripts are created by Yunkun and used for analysis of ribosome profiling data.
 
 Before start
 require Perl(5.22) and R(3.4.0) or above
