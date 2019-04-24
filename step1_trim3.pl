@@ -34,11 +34,11 @@ $idfq=$_; next  }
 
 if ($mod == 2)             {
 $on=0; $si=0;
-if (/^(.*[ATCG]{4}AGATCGGAAG)/)   {
+if (/^(.*AGATCGGAAG)/)   {
 $_=$1;
-$_ =~ s/[ATCG]{4}AGATCGGAAG$//;   }
+$_ =~ s/AGATCGGAAG$//;   }
 else                 {
-$_ =~ s/([ATCG]{4}AGATCGGA|[ATCG]{4}AGATCGG|[ATCG]{4}AGATCG|[ATCG]{4}AGATC|[ATCG]{4}AGAT)[ATCGN]*$//;
+$_ =~ s/(AGATCGGA|AGATCGG|AGATCG|AGATC|AGAT)[ATCGN]*$//;
                      }
 
 if (length($_)>$min and length($_)<$max)   {
