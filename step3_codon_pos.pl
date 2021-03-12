@@ -4,7 +4,7 @@ use warnings;
 use Number::Format qw/round/;
 
 my $up = 35;
-my $low = 17;
+my $low = 25;
 
 mkdir 'codon_stat';
 
