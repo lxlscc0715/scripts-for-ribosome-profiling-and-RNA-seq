@@ -6,7 +6,7 @@ use warnings;
 ####################################################################
 
 # set the threshold for the size selection. 65 mean 65%.
-my $threshold = 65;
+my $threshold = 60;
 
 mkdir 'cleavage_preference';
 
