@@ -14,4 +14,4 @@ step 5: This script is used for conversion of file format.
 step 6: This script is prepared for calculating codon occupancy. 
 step 7: This script is used to normalize the ribosome profiling data by library size (total reads).
 step 8: This script is used to calculate the absolute codon occupancy. RPF density of a given codon was normalized to library size (total reads) and the mRNA level (FPKM).
-step 9: This script is prepared for the calculation of the relative codon occupancy. 1, avergage RPF density of a given gene = total in-frame reads / total effective codon (with PRF reads); 2, for each gene, RPF density of a given codon is normalized with the the average RPF density of the gene.
+step 9: This script is prepared for the calculation of the relative codon occupancy. (1) avergage RPF density of a given gene = total in-frame reads / total effective codon (with PRF reads); (2) for each gene, RPF density of a given codon is normalized with the the average RPF density of the gene.
