@@ -13,4 +13,4 @@ step 4: This script is used to trim 5'end flank of RPF protected fragment, which
 step 5: This script is used for conversion of file format.
 step 6: This script is prepared for calculating codon occupancy. 
 step 7: This script is used to calculate the absolute codon occupancy. RPF density of a given codon was normalized to mRNA level (RPKM).
-step 8: This script is prepared for the calculation of the relative codon occupancy. 1, avergage RPF density of a given gene = total in-frame reads / total effective codon (with PRF reads); 2, for each gene, RPF density of a given codon is normalized with the the average RPF density of the gene.
+step 8: This script is prepared for the calculation of the relative codon occupancy. 1, average RPF density of a given gene = total in-frame reads / total effective codon (with PRF reads); 2, for each gene, RPF density of a given codon is normalized with the average RPF density of the gene.
